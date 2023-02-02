@@ -1,0 +1,19 @@
+input{
+    width: 100%;
+    padding: 12px 24px;
+    transition: transform .25s ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95%;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    transition: all .25s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    margin-bottom: 40px;
+}
