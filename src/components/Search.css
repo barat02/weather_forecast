@@ -1,19 +1,21 @@
 input{
-    width: 100%;
-    padding: 12px 24px;
+    color: black;
+    width: 50%;
+    padding: 19px 24px;
     transition: transform .25s ease-in-out;
     font-size: 14px;
     line-height: 18px;
-    color: white;
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: 95%;
     border-radius: 50px;
-    border: 1px solid rgb(17, 1, 1);
+    border: 1px solid rgb(6, 162, 246);
     transition: all .25s ease-in-out;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform-style: preserve-3d;
     margin-bottom: 40px;
+
 }
+

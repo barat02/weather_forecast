@@ -22,8 +22,9 @@ function WeatherCard(props) {
             <div className='box_temp'>
                 <div className='box'>
                     <h1>{props.weatherState? props.weatherState.name : 'Karakol,KG'}</h1>
+                    <h1>{props.weatherState? props.weatherState?.sys?.country: 'KG'}</h1>
                     <h2>Friday 3 February</h2>
-                    <h3>Population: 100 000</h3>
+                    
                 </div>
                 <div>
                     <div className='box_2'>

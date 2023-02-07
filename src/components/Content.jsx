@@ -4,7 +4,7 @@ import Card from './WeatherCard'
 
 function Content(props) {
     const [weatherState, setWeatherState] = React.useState({
-        name: 'Karakol',
+        name: 'Karakol,KG',
         main: {
             temp: '0'
         }
