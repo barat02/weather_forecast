@@ -5,17 +5,7 @@ import dawn from '../assets/dawn.png'
 import sunset from '../assets/sunset.png'
 import proc from '../assets/proc.svg'
 function WeatherCard(props) {
-    const currentDate = new Date().toLocaleString("ru", {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-        timeZone: 'UTC'
-    });
 
-
-    const currentDay = new Date().toLocaleString("ru",{
-        weekday: 'long'
-    })
     console.log(props.weatherState)
     return (
         <div>
@@ -23,17 +13,15 @@ function WeatherCard(props) {
                 <div className='box'>
                     <h1>{props.weatherState? props.weatherState.name : 'Karakol,KG'}</h1>
                     <h1>{props.weatherState? props.weatherState?.sys?.country: 'KG'}</h1>
-                    <h2>Friday 3 February</h2>
+                    <h2>Today</h2>
                     
                 </div>
                 <div>
                     <div className='box_2'>
                         <div className='box_2_temp'>
-                            <div>
-                            <img src={snow} alt="" width={80} />
-                            </div>
-                            <div>
-                                {props.weatherState? props.weatherState.main.temp: 0}
+                         
+                            <div className='tempe'>
+                                {props.weatherState? props.weatherState.main.temp: 0} °C
                             </div>
                             <div>
                           
